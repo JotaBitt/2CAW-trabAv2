@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --cor-principal: #249BA3;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FAFAFA;
+    color: #249BA3;
+}
+
+header {
+    margin-left: 10vw;
+    padding: 2em 2em;
+    background-color: #EEE;
+}
+
+#caixa-botao {
+    padding: 1em;
+    text-align: center;
+}
+
+.botao-racao {
+    background-color: #9f2ceb;
+    color: #FAFAFA;
+    border-radius: 7px;
+    border-color: #9f2ceb;
+    padding: .5em 1em;
+    margin: 0 1em;
+}
+
+.nav-pagina {
+    background-color: #9f2ceb;
+    padding-top: 4em;
+    width: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+
+.nav-link {
+    display: block;
+    padding: .5em 1em;
+    text-decoration: none;
+    color: #EEE;
+}
+
+.link-ativo {
+    border-left: 8px solid #EEE;
+}
+
+.nav-link:hover {
+    background-color: var(--cor-principal);
+    color: #000;
+    transition: .3s;
+}
+
+.principal {
+    padding: 2em 2em;
+    margin-left: 10vw;
+    margin-right: 9vw;
+}
+
+.lista-prod {
+    display: flex;
+    list-style-type: none;
+    padding: 2em 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.prod {
+    font-size: 16px;
+    margin-top: 2em;
+}
+
+.img-prod {
+    height: 200px;
+    margin: 0 4em;
+}
+
+.descricao-prod {
+    padding: 1em 0;
+    font-size: 14px;
+}
+
+.preco-prod {
+    padding-bottom: 1em;
+    font-size: 18px;
+}
+
+.prod-botao {
+    background-color: #9f2ceb;
+    color: #FAFAFA;
+    border-color: #9f2ceb;
+    border-radius: 7px;
+    padding: 1em 2em;
+}
+
+.propagandas {
+    margin: 0 .4em;
+    width: 10%;
+    background-color: #999;
+    position: absolute;
+    top: 10em;
+    right: 0;
+    height: 70vh; 
+}
+
+/*Página de serviços*/
+
+table, tr, td, th {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: .5em;
+}
+
+#tabela {
+    margin: 0 auto;
+    width: 80%;
+}
+
+figure {
+    margin-left: 22em;
+}
+
+.linha-tabela:hover {
+    background-color: #249BA3;
+    color: #EEE;
+    transition: .35s;
+}
+
+.img-tabela {
+    height: 80px;
+}
+
+.preco-tabela {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#video {
+    margin: 4em 18em 0 18em;
+}
+
+#texto-video {
+    padding: 1em 0;
+}
+
+/*Página de Contato*/
+#titulo-ctt {
+    padding: 1em 0;
+}
+
+#opcao {
+    padding: 1em 0;
+}
+
+.rotulo {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.formulario {
+    padding: .3em 0;
+}
+
+.formulario input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.formulario textarea {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    height: 120px;
+}
+
+#main {
+    height: 90vh;
+}
+
+footer {
+    background-color: #EEE;
+    padding: 2em 2em;
+}
+
+#direitos {
+    width: 18px;
+}
