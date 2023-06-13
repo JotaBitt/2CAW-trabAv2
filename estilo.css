@@ -38,7 +38,15 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 148vh;
+}
+
+.nav-maior {
+    height: 180vh;
+}
+
+.nav-grande {
+    height: 160vh;
 }
 
 .nav-link {
@@ -102,10 +110,10 @@ header {
 
 .propagandas {
     margin: 0 .4em;
-    width: 10%;
+    width: 12%;
     background-color: #999;
-    position: absolute;
-    top: 10em;
+    position: fixed;
+    top: 9em;
     right: 0;
     height: 70vh; 
 }
@@ -121,10 +129,7 @@ table, tr, td, th {
 #tabela {
     margin: 0 auto;
     width: 80%;
-}
-
-figure {
-    margin-left: 22em;
+    text-align: center;
 }
 
 .linha-tabela:hover {
@@ -143,7 +148,8 @@ figure {
 }
 
 #video {
-    margin: 4em 18em 0 18em;
+    padding-top: 5em;
+    text-align: center;
 }
 
 #texto-video {
@@ -159,14 +165,32 @@ figure {
     padding: 1em 0;
 }
 
+.item-lista {
+    margin: 2em 0;
+}
+
+.item-lista a {
+    text-decoration: none;
+    color: var(--cor);
+}
+
+.item-lista a:hover {
+    color: #0000FF;
+}
+
 .rotulo {
     display: block;
     font-weight: bold;
     margin-bottom: 2px;
 }
 
-.formulario {
-    padding: .3em 0;
+form {
+    margin: 2em 0;
+}
+
+fieldset {
+    border: 0px;
+    padding: .5em 0;
 }
 
 .formulario input {
@@ -186,13 +210,13 @@ figure {
     height: 120px;
 }
 
-#main {
-    height: 90vh;
-}
-
 footer {
     background-color: #EEE;
     padding: 2em 2em;
+}
+
+#titulo-rodape {
+    display: inline;
 }
 
 #direitos {

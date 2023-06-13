@@ -14,41 +14,55 @@
 
 <body>
     <header>
-        <h2>Entre em contato conosco</h2>
+        <h1>Entre em contato conosco</h1>
         <nav class="nav-pagina">
             <a href="index.html" class="nav-link inicio">Início</a>
             <a href="servicos.html" class="nav-link servicos">Serviços</a>
             <a href="contato.html" class="nav-link link-ativo contato">Fale conosco</a>
         </nav>
     </header>
-    <main id="main">
-        <form class="principal">
-            <div class="formulario">
+    <main class="principal">
+        <section id="duvidas">
+            <h2>Dúvidas frequentes:</h2>
+            <ul>
+                <li class="item-lista"><a href="#">Onde consulto os preços dos serviços?</a> </li>
+                <li class="item-lista"><a href="#">Como faço pra cancelar um agendamento?</a> </li>
+                <li class="item-lista"><a href="#">Como faço para utilizar um voucher/cupom de desconto no site ou aplicativo?</a> </li>
+                <li class="item-lista"><a href="#">Qual o prazo de confirmação do pagamento?</a> </li>
+                <li class="item-lista"><a href="#">Qual é o prazo das entregas?</a> </li>
+                <li class="item-lista"><a href="#">Como altero meus dados cadastrais?</a> </li>
+            </ul>
+        </section>
+
+        <h2>Não encontrou sua dúvida?</h2>
+
+        <form>
+            <fieldset class="formulario">
                 <label for="nome" class="rotulo">Nome:</label>
                 <input type="text" id="nome" placeholder="Ex:João Silva" onfocus="limpaCampo(1)">
-            </div>
-            <div class="formulario">
+            </fieldset>
+            <fieldset class="formulario">
                 <label for="email" class="rotulo">Email:</label>
                 <input type="email" id="email" placeholder="Ex:joao@gmail.com" onfocus="limpaCampo(2)">
-            </div>
-            <div class="formulario">
+            </fieldset>
+            <fieldset class="formulario">
                 <label for="celular" class="rotulo">Celular:</label>
                 <input type="tel" id="celular" placeholder="Ex:(DD) XXXXX-XXXX" onfocus="limpaCampo(3)">
-            </div>
-            <div class="formulario">
+            </fieldset>
+            <fieldset class="formulario">
                 <label for="mensagem" class="rotulo">Mensagem:</label>
                 <textarea id="mensagem"></textarea>
-            </div>
+            </fieldset>
         </form>
-        <aside class="propagandas">
-            <h3>Conteúdo de propagandas</h3>
-        </aside>
     </main>
     <footer>
-        <h3>
+        <h3 id="titulo-rodape">
             Todos os direitos reservados a Jota's Petshop
             <img id="direitos" src="img/direitosAutorais.png" alt="Ícone direitos autorais">
         </h3>
+
+        <h4 id="redes">Redes sociais</h4>
+
         <p>Endereço: Rua dos animais, 180 - Cidade dos Pets, Estado do Rio de janeiro</p>
         <p>Email: jotapetshop@gmail.com</p>
         <p>WhatsApp: (21)99999-9999</p>
