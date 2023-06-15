@@ -29,6 +29,13 @@ header {
     border-color: #9f2ceb;
     padding: .5em 1em;
     margin: 0 1em;
+    font-size: 0.9rem;
+}
+
+.botao-racao:hover {
+    border-radius: 10px;
+    border-bottom: 2px solid var(--cor-principal);
+    color: #DDD;
 }
 
 .nav-pagina {
@@ -38,15 +45,15 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    height: 148vh;
+    height: 102vh;
 }
 
 .nav-maior {
-    height: 180vh;
+    height: 175vh;
 }
 
 .nav-grande {
-    height: 160vh;
+    height: 150vh;
 }
 
 .nav-link {
@@ -72,17 +79,32 @@ header {
     margin-right: 9vw;
 }
 
+#inicio-main {
+    height: 135vh;
+}
+
+#titulo-principal {
+    text-align: center;
+}
+
 .lista-prod {
     display: flex;
     list-style-type: none;
     padding: 2em 0;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .prod {
+    position: relative;
     font-size: 16px;
     margin-top: 2em;
+}
+
+.prod:hover {
+    top:-2px;
+    box-shadow:0 2px 2px #666;
+    transition: all .1s ease-in-out;
 }
 
 .img-prod {
@@ -109,13 +131,18 @@ header {
 }
 
 .propagandas {
-    margin: 0 .4em;
     width: 12%;
-    background-color: #999;
     position: fixed;
-    top: 9em;
+    top: 8em;
     right: 0;
-    height: 70vh; 
+    height: 70vh;
+    transition: 2s all;
+    margin-right: .5em;
+}
+
+.propagandas img {
+    height: 70vh;
+    width: 100%;
 }
 
 /*Página de serviços*/
@@ -161,12 +188,12 @@ table, tr, td, th {
     padding: 1em 0;
 }
 
-#opcao {
-    padding: 1em 0;
+#main {
+    height: 90vh;
 }
 
 .item-lista {
-    margin: 2em 0;
+    padding: 1.5em 0;
 }
 
 .item-lista a {
@@ -184,8 +211,24 @@ table, tr, td, th {
     margin-bottom: 2px;
 }
 
+.principal > h2 {
+    margin-bottom: 1em;
+}
+
+#lista {
+    padding-left: 15px;
+}
+
 form {
     margin: 2em 0;
+    position: absolute;
+    right: 0;
+    top: 105px;
+    width: 45vw;
+}
+
+form h2 {
+    margin-bottom: 1.6em;
 }
 
 fieldset {
@@ -194,7 +237,7 @@ fieldset {
 }
 
 .formulario input {
-    width: 70%;
+    width: 80%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -210,13 +253,47 @@ fieldset {
     height: 120px;
 }
 
+#mensagem {
+    margin-bottom: 1.5em;
+}
+
+#btn-enviar {
+    background-color: #9f2ceb;
+    color: #EEE;
+    border-radius: 8px;
+    padding: 1em;
+}
+
+#btn-enviar:hover {
+    cursor: pointer;
+    color: #ccc;
+    border-radius: 12px;
+    border-bottom: 2px solid var(--cor-principal);
+}
+
+#btn-enviar:active {
+    background-color: green;
+}
+
 footer {
-    background-color: #EEE;
+    background-color: #DDD;
     padding: 2em 2em;
 }
 
-#titulo-rodape {
+#titulo-rodape, #redes {
     display: inline;
+}
+
+#redes {
+    margin-left: 30em;
+}
+
+.rodape-img {
+    height: 25px;
+    padding-left: 5px;
+    position: relative;
+    top: 40px;
+    right: 132px;
 }
 
 #direitos {
