@@ -18,16 +18,15 @@ btnTodos.addEventListener('click', () => {
 function filtraProd(num) {
     if (num == 1) {
         $(".gato").fadeOut();
-        $(".cacho").show();
+        $(".cacho").fadeIn();
     } else if(num == 2) {
         $(".cacho").fadeOut();
-        $(".gato").show();
+        $(".gato").fadeIn();
 
     } else {
-        $(".cacho").show();
-        $(".gato").show();
+        $(".cacho").fadeIn();
+        $(".gato").fadeIn();
     }
-    
 }
 
 function limpaCampo (num) {

@@ -80,7 +80,7 @@ header {
 }
 
 #inicio-main {
-    height: 135vh;
+    height: 142vh;
 }
 
 #titulo-principal {
@@ -135,13 +135,11 @@ header {
     position: fixed;
     top: 8em;
     right: 0;
-    height: 70vh;
-    transition: 2s all;
-    margin-right: .5em;
+    margin-right: 1em;
 }
 
 .propagandas img {
-    height: 70vh;
+    height: 60vh;
     width: 100%;
 }
 
@@ -224,7 +222,7 @@ form {
     position: absolute;
     right: 0;
     top: 105px;
-    width: 45vw;
+    width: 42vw;
 }
 
 form h2 {
